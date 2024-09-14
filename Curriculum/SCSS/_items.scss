@@ -1,0 +1,51 @@
+.menu-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    position: fixed;
+    background-color: #08192f;
+    nav {
+        padding: 0.5rem;
+        display: flex;
+        gap: 1.5rem;
+        align-items: center;
+    }
+}
+
+.btn-main {
+    background-color: transparent;
+    border: 1px solid #22d3b6;
+    color: #0bac92;
+    padding: 0.5rem;
+    font-size: 0.5rem;
+    font-weight: 600;
+    &:hover {
+        background-color: #002049;
+    }
+}
+
+.btn-menu {
+    background-color: transparent;
+    border: none;
+    color: #0bac92;
+    font-size: 0.5rem;
+    text-decoration: none;
+    font-size: 0.7rem;
+    &:hover {
+        border-bottom: 1px solid #0bac92;
+        opacity: 0.7;
+    }
+}
+
+.btn-icon {
+    background-color: transparent;
+    border: none;
+    &:hover {
+        color: white;
+        opacity: 0.8;
+    }
+    &:visited{
+        color: white;
+    }
+}

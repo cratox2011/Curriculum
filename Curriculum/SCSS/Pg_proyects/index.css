@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.menu-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  position: fixed;
+  background-color: #08192f;
+}
+.menu-main nav {
+  padding: 0.5rem;
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.btn-main {
+  background-color: transparent;
+  border: 1px solid #22d3b6;
+  color: #0bac92;
+  padding: 0.5rem;
+  font-size: 0.5rem;
+  font-weight: 600;
+}
+.btn-main:hover {
+  background-color: #002049;
+}
+
+.btn-menu {
+  background-color: transparent;
+  border: none;
+  color: #0bac92;
+  font-size: 0.5rem;
+  text-decoration: none;
+  font-size: 0.7rem;
+}
+.btn-menu:hover {
+  border-bottom: 1px solid #0bac92;
+  opacity: 0.7;
+}
+
+.btn-icon {
+  background-color: transparent;
+  border: none;
+}
+.btn-icon:hover {
+  color: white;
+  opacity: 0.8;
+}
+.btn-icon:visited {
+  color: white;
+}
+
+html {
+  background-color: #0a192f;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: handjet;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  padding: 2.5rem;
+}
+.main .list-proyects {
+  background-color: #122c54;
+  width: 30rem;
+  height: auto;
+  padding: 1rem;
+}
+.main .list-proyects h2 {
+  color: white;
+  font-size: 2rem;
+  font-weight: 800;
+  margin: 0.3rem;
+}
+.main .list-proyects li {
+  list-style: none;
+}
+.main .list-proyects .square-proyect {
+  border: dashed 0.1rem #0bac92;
+  padding: 0.3rem;
+  color: #fff;
+  margin: 0.5rem 0;
+}
+
+/*# sourceMappingURL=index.css.map */
